@@ -1,0 +1,102 @@
+*{margin: 0;
+padding: 0;
+box-sizing: border-box;
+font-family:'Kelly Slab', 'Adobe Caslon Pro', 'Cascadia Code', 'Courier New', 'Dubai', 'Gabriola', 'Power Red and Blue';
+color: white;
+}
+    
+ 
+    
+.container{display: grid;
+grid-template-rows: auto;
+}
+    
+body{background-color: #27093d;
+}
+
+.bonitinho{display: grid;
+grid-template-columns: 1fr 1fr 1fr 1fr; 
+align-items: center;
+justify-items: center;
+}
+
+cabeçalho{background-color: #2A004A;
+height: 125px;
+position: -webkit-sticky;
+position: sticky;
+top: 0;
+display: flex;
+flex-direction: row;
+align-items: center;
+border-bottom: solid;
+border-color: rgb(14, 0, 26);
+}
+    
+    
+    
+.logo{display: flex;
+flex-direction: row;
+align-items: center;
+font-size: 45px;
+}
+    
+    
+    
+.logo a:hover{font-size: 50px;
+width: 130px;
+cursor: pointer;
+transition: 1s;
+}
+    
+    
+    
+a{text-decoration: none;   
+}
+    
+    
+    
+.nav{display: flex;
+flex-direction: row;
+align-items: center;
+justify-content: space-evenly;
+padding-left: 150px;
+font-size: 20px;
+}
+    
+    
+    
+.nav a:hover{font-size: 25px;   
+text-decoration: solid;
+cursor: pointer;
+transition: 1s;
+}
+    
+    
+    
+.carrinho :hover{cursor: pointer;
+width: 35px;
+transition: 1s;
+}
+
+
+.quem_somos{font-size: 50px;
+text-align: center;
+justify-content: center;
+}
+
+
+.lore_dump{font-size: 30px;
+text-align: center;
+justify-content: center;
+}
+
+
+rodapé{background-color: #366850;
+height: 75px;
+font-size: 35px;
+display: flex;
+flex-direction: row;
+text-align: center;
+align-items:center;
+justify-content: center;
+}

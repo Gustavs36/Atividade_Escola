@@ -1,0 +1,23 @@
+*{margin: 0;
+padding: 0;
+box-sizing: border-box;
+font-family: 'Inter', 'Times New Roman', 'Adobe Caslon Pro', 'Cascadia Code', 'Courier New', 'Dubai', 'Gabriola', 'Power Red and Blue';
+}
+
+body{background-color: #1e1e1e;
+}
+
+topo{display: flex;
+flex-direction: column;
+justify-content: center;
+text-align: center;
+}
+
+#boasvindas{color: antiquewhite;
+font-size: 45px;
+font-weight: bold;
+}
+
+#site{color: antiquewhite;
+font-size: 20px;
+}
