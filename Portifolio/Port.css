@@ -1,0 +1,42 @@
+*{margin: 0;
+padding: 0;
+box-sizing: border-box;
+font-family: 'Inter', 'Times New Roman', 'Adobe Caslon Pro', 'Cascadia Code', 'Courier New', 'Dubai', 'Gabriola', 'Power Red and Blue';
+}
+
+body{background-color: #17161A;
+}
+
+topo{display: flex;
+flex-direction: column;
+justify-content: center;
+text-align: center;
+}
+
+#boasvindas{color: antiquewhite;
+font-size: 45px;
+font-weight: bold;
+}
+
+#site{color: antiquewhite;
+font-size: 20px;
+}
+
+apresentacao{display: grid;
+grid-template-columns: 1fr 1fr 1fr 1fr 1fr;
+background-color: #0A0A0A;
+color: antiquewhite;
+}
+
+#Cesar{-moz-transform: scaleX(-1);
+-o-transform: scaleX(-1);
+-webkit-transform: scaleX(-1);
+transform: scaleX(-1);
+opacity: 0.2;
+}
+
+#Pixelart{-moz-transform: scaleX(-1);
+-o-transform: scaleX(-1);
+-webkit-transform: scaleX(-1);
+transform: scaleX(-1);
+}
